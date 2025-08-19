@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+main{
+
+background-color: aliceblue;
+
+
+
+display: flex;
+flex-wrap: wrap;
+
+
+justify-content: center;
+align-items: center;
+
+
+
+
+}
+
+
+
+header{
+
+background-color: rgb(20, 181, 221);
+
+
+width: 100%;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+
+padding: 10px;
+
+}
+
+
+
+ul{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style-type: none;
+    padding:  0px 100px;
+
+    font-size: 1.6rem;
+    font-family: "Chela One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#logo{
+
+    align-self: center;
+    padding: 10px;
+    
+}
+
+
+
+#header_mobile{
+
+
+display: none;    
+background-color: rgb(240, 236, 6);
+
+height: 200px;
+width: 100%;
+
+
+ list-style-type: none;
+      
+        font-size: 1.2rem;
+        font-family: "Chela One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+
+}
+
+#header_mobile ul{
+
+
+    padding:  0px 10px;
+}
+
+
+
+section{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+
+
+
+}
+
+footer{
+
+    background-color: rgb(128, 6, 241);
+
+height: 200px;
+width: 300px;
+
+
+
+}
+
+@media(max-width: 600px)   {
+
+    header{
+        display: none;
+    }
+
+    #header_mobile{   
+       display: flex;   
+    }
+
+
+
+}
+
+    
+
+
+
+
+section{
+
+    flex-direction: column;
+
+ height: 50px;
+width: 100%;
+
+background-color: aqua;
+
+    
+}
+
+footer{
+
+    
+
+flex-direction: column;
+
+height: 50px;
+width: 100%;
+
+background-color: green;
+
+    
+}
+
+    
