@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio agua media crew</title>
     <link rel="stylesheet" href="../css/estilo_desafio_agua.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
+
 <body>
 
 
@@ -39,15 +43,20 @@
                 <img src="../img/icons8-github-48.png" alt="">
             </div>
 
-            <nav id="menu_principal">
+            <nav id="menu_mobile">
 
-                <ul id="menu_mobile">
-                    <li>Inicio</li>
-                    <li>Contato</li>
-                    <li>Área Vip</li>
-                    <li>Pacotes</li>
-                </ul>
+                <button id="btn_mobile" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#1f1f1f"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg></button>
 
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">...</div>
+                </div>
 
 
             </nav>
@@ -61,13 +70,19 @@
 
 
         <section>
-            <img src="../img/img-sala.jpg" alt=""></section>
+        </section>
         <footer>eu sou o roda pe</footer>
 
 
 
 
     </main>
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

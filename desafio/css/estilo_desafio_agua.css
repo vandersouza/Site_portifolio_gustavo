@@ -92,14 +92,14 @@ width: 100%;
 
 
 
+
+
+
 section{
 
     display: flex;
     flex-wrap: wrap;
     
-
-
-
 
 
 }
@@ -122,8 +122,27 @@ width: 300px;
     }
 
     #header_mobile{   
-       display: flex;   
+       display: flex;  
+       
     }
+
+    #menu_mobile{
+
+    display: flex;
+
+
+}
+
+#btn_mobile{
+
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+
+
+
+
+}
+
 
 
 
