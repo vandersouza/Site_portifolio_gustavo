@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+
+    --font-family-primeira:"Playwrite MX Guides", cursive;
+    --font-family-segunda:font-family: "Roboto", sans-serif;
+    --font-size-titulos: 2rem;
+    --font-size-textos: 1.3rem;
+     --font-weight: 400;
+    --textos-espaco-linhas:line-height: 1.5;
+    --textos-justificado:text-align: justify;
+    --primeira-cor:#06113c;
+    --segunda-cor:#FF8C32;
+    --terceira-cor:#DDDDDD;
+}
+
+/* <main class="container_geral">
+
+
+        <header id="cabecalho">eu sou o cabeçalho</header>
+
+        <section class="conteudo">
+
+            <figure id="figura_1">eu sou a img1</figure>
+            <article id="artigo_1">eu sou o artigo1</article>
+
+            <figure id="figura_2">eu sou a img2</figure>
+            <article id="artigo_2">eu sou o artigo2</article>*/
+
+
+.container_geral{
+
+    
+    width: 100dvw;
+    height: 100dvh;
+    padding: 10px;
+
+}
+
+#cabecalho{
+
+    height: 50px;
+    background-color:var(--primeira-cor);
+    justify-items: center;
+    padding: 5px 10px;
+}
+
+h1{
+
+    font-size: var(--font-size-titulos);
+    color: var(--segunda-cor);
+    
+
+}
+
+.conteudo{
+
+    height: 500px;
+    /*background-color: var(--segunda-cor);*/
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    
+    gap: 10px;
+}
+
+
+
+#figura_1{
+
+width: 45%;
+display: flex;
+justify-content: center;
+
+}
+
+#artigo_1{
+width: 45%;
+height: 100px;
+
+}
+
+h2{
+
+    color: var(--segunda-cor);
+    font-size: var(--font-size-titulos);
+}
+
+p{
+
+    font-size: var(--font-size-textos);
+    font-family:var(--font-family-segunda);
+    font-weight: var(--font-weight);
+    line-height: 1.5;
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+
+#artigo_2{
+
+width: 45%;
+
+}
+
+#figura_2{
+
+width: 45%;  
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
