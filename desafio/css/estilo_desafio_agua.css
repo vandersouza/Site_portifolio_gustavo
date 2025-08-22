@@ -77,7 +77,12 @@ font-style: normal;
     
 }
 
-section{
+
+
+
+
+.conteudo{
+
 
     display: flex;
     flex-wrap: wrap;
@@ -93,9 +98,28 @@ section{
     
 }
 
+    
+    
+    
+
+
+#banner{
+
+    height: 50px;
+    width: 100%;
+    background-color: rgb(12, 5, 122);
+    justify-items: center;
+    padding: 10px;
+}
+
+#texto_banner{
+
+    color: aliceblue;
+}
 
 #itens_conteudo{
 
+<<<<<<< HEAD
       
     display: flex;
     flex-direction: column;
@@ -124,13 +148,58 @@ p{
    
    height: 30dvh;
    padding: 5px;
+=======
+#texto_seme{
+>>>>>>> a002379a6d56ac3d7ef0092d371e6cc57daa1c49
 
+    height: 50px;
+    width: 50%;
+    padding: 10px;
+    /*background-color: rgb(247, 14, 14);*/
 
 }
 
+#color{
+
+    color: rgb(252, 198, 52);
+}
+
+p{
+
+    text-align: justify;
+    
+}
+
+#img_1{
+
+    
+    width: 50%;
+   /*background-color: rgb(247, 3, 145);*/
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#figura_1{
+
+width: 300px;
+height: 300px;
+
+}
+
+
 footer{
 
+<<<<<<< HEAD
 width: 100%;
+=======
+    /*background-color: rgb(128, 6, 241);*/
+
+height: 200px;
+width: 300px;
+
+>>>>>>> a002379a6d56ac3d7ef0092d371e6cc57daa1c49
 
 background-color: green;
 
@@ -146,6 +215,7 @@ background-color: green;
     }
 
     #header_mobile{   
+<<<<<<< HEAD
     
         display: flex;   
 
@@ -157,3 +227,33 @@ background-color: green;
 
     
 }
+=======
+       display: flex;  
+       
+    }
+
+    #menu_mobile{
+
+    display: flex;
+
+
+}
+
+#btn_mobile{
+
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+
+
+
+
+}
+
+
+
+
+}
+
+    
+
+>>>>>>> a002379a6d56ac3d7ef0092d371e6cc57daa1c49

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio agua media crew</title>
     <link rel="stylesheet" href="../css/estilo_desafio_agua.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
+
 <body>
 
 
@@ -39,21 +43,29 @@
                 <img src="../img/icons8-github-48.png" alt="">
             </div>
 
-            <nav id="menu_principal">
+            <nav id="menu_mobile">
 
-                <ul id="menu_mobile">
-                    <li>Inicio</li>
-                    <li>Contato</li>
-                    <li>Área Vip</li>
-                    <li>Pacotes</li>
-                </ul>
+              <button id="btn_mobile" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#1f1f1f"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+              </button>
 
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">...</div>
+                </div>
 
 
             </nav>
 
         </header>
 
+<<<<<<< HEAD
         <section>
 
             
@@ -72,6 +84,35 @@
         
         
         
+=======
+        <section class="conteudo">
+
+            <div id="banner">
+
+                <p id="texto_banner">Leis da Gestalt</p>
+
+            </div>
+              
+            
+            <div id="img_1">
+                <img id="figura_1" src="../img/img_1_gestalt.png" alt="">
+            </div>
+           
+            <article id="texto_seme">
+
+                <h2 id="color">Semelhança</h2>
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis praesentium, amet atque voluptatum eaque quos eligendi dolorum doloremque eveniet. Ea laudantium, eum sit dolores maiores optio placeat? Fugiat iste nam deleniti vero tempore ut dolor odit quasi excepturi est? Hic facere nostrum optio, molestiae laboriosam aut alias eum placeat reprehenderit vitae culpa dolorum non enim quod? Neque a qui, incidunt ut laudantium dolor nulla quo voluptatibus ratione voluptates nemo ducimus saepe, laborum, reiciendis quaerat nesciunt consequuntur omnis animi laboriosam inventore est deserunt obcaecati tenetur minus. Non amet, hic blanditiis repellendus fugiat optio aperiam quidem cupiditate? Officiis tenetur reprehenderit dicta vero perferendis quidem voluptatum, deleniti facilis corporis, assumenda, molestiae est ipsum rerum. Incidunt totam ea praesentium quisquam quae architecto impedit corrupti maiores ex porro. Corporis ut dolores iusto voluptates similique excepturi labore dicta maiores error consequatur in, perferendis incidunt, iure repellat nobis consectetur. Saepe earum at sint, a excepturi aperiam eaque dolor libero ab officia iure aut minus quos voluptatem. Reprehenderit veritatis quod perspiciatis, ipsa, saepe tempora nemo eum officia maiores aliquam provident sunt, alias illum quasi repellat. Laboriosam eos ipsum porro quos minima praesentium voluptas distinctio quidem sapiente quaerat aspernatur eius illo corrupti laborum repellat, quas cumque obcaecati amet architecto.</p>
+            
+            </article>
+            
+            <article id="texto_prox">
+                texto 2
+            </article>
+            
+            <div id="img_2">eu sou img 2</div>
+            
+>>>>>>> a002379a6d56ac3d7ef0092d371e6cc57daa1c49
         </section>
         
         
@@ -85,6 +126,12 @@
 
 
     </main>
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

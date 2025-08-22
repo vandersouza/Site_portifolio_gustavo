@@ -24,20 +24,6 @@
     --terceira-cor:#DDDDDD;
 }
 
-/* <main class="container_geral">
-
-
-        <header id="cabecalho">eu sou o cabeçalho</header>
-
-        <section class="conteudo">
-
-            <figure id="figura_1">eu sou a img1</figure>
-            <article id="artigo_1">eu sou o artigo1</article>
-
-            <figure id="figura_2">eu sou a img2</figure>
-            <article id="artigo_2">eu sou o artigo2</article>*/
-
-
 .container_geral{
 
     
@@ -118,8 +104,47 @@ width: 45%;
 #figura_2{
 
 width: 45%;  
-flex-wrap: wrap;
+
+display: flex;
 justify-content: center;
 
 }
 
+@media(max-width: 600px)   {
+
+.conteudo{
+
+display: flex;
+flex-flow: column;
+
+width: 200vw;
+
+justify-content: center center;
+align-items: center center;
+
+}
+
+
+#artigo_1{
+
+height: 100%;
+
+margin: 0px 0px 50px;
+
+}
+
+
+
+    /*display: grid;
+    
+    grid-template-columns: 600px;
+    grid-template-rows: 300px 400px 400px 200px ;
+    justify-content: center;
+    justify-items: center;*/
+
+    
+
+
+
+
+}
