@@ -27,6 +27,22 @@
 
 }
 
+h2{
+
+    color: var(--segunda-cor);
+    font-size: var(--font-size-titulos);
+}
+
+p{
+
+    font-size: var(--font-size-textos);
+    font-family:var(--font-family-segunda);
+    font-weight: var(--font-weight);
+    line-height: 1.5;
+    text-align: justify;
+    padding: 20px 0px;
+}
+
 .container_geral{
 
     
@@ -63,6 +79,7 @@ font-size: 1.8rem;
 padding: 0px 10px;
 text-align: center;  
 font-family: var(--font-size-titulos); 
+cursor: pointer;
     
 }
 
@@ -71,6 +88,7 @@ font-family: var(--font-size-titulos);
     color: var(--terceira-cor);
     border-bottom: 2px solid rgb(236, 129, 5);
     padding: 10px 0px;
+    cursor: pointer;
     
 }
 
@@ -80,7 +98,6 @@ font-family: var(--font-size-titulos);
    
 }
 
-
 h1{
 
     font-size: var(--font-size-titulos);
@@ -89,9 +106,9 @@ h1{
 
 }
 
-.conteudo{
+.conteudo_1{
 
-    height: 500px;
+    
     /*background-color: var(--segunda-cor);*/
 
     display: flex;
@@ -102,8 +119,6 @@ h1{
     gap: 10px;
 }
 
-
-
 #figura_1{
 
 width: 45%;
@@ -113,40 +128,145 @@ justify-content: center;
 }
 
 #artigo_1{
+
 width: 45%;
-height: 100px;
+padding: 10px;
 
 }
-
-h2{
-
-    color: var(--segunda-cor);
-    font-size: var(--font-size-titulos);
-}
-
-p{
-
-    font-size: var(--font-size-textos);
-    font-family:var(--font-family-segunda);
-    font-weight: var(--font-weight);
-    line-height: 1.5;
-    text-align: justify;
-    padding: 20px 0px;
-}
-
-
 #artigo_2{
 
 width: 45%;
+padding: 10px;
 
 }
 
 #figura_2{
 
-width: 45%;  
+width: 45%;
+display: flex;
+justify-content: center;
+
+}
+
+.conteudo_2{
+
+    
+    /*background-color: var(--segunda-cor);*/
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+
+    margin: 20px;
+    
+    gap: 10px;
+}
+
+#figura_continuidade{
+
+width: 45%;
 
 display: flex;
 justify-content: center;
+
+}
+#img_continuidade{
+
+width: 125%;
+
+
+}
+#artigo_continuidade{
+
+width: 45%;
+padding: 10px
+
+ ;
+
+}
+
+#artigo_pregnancia{
+
+width: 45%;
+padding: 10px;
+
+}
+
+#figura_pregnancia{
+
+width: 45%;  
+display: flex;
+justify-content: center;
+
+}
+
+#img_pregnancia{
+
+width: 125%;
+
+}
+
+
+
+
+.conteudo_3{
+
+    
+    /*background-color: var(--segunda-cor);*/
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+
+    margin: 20px;
+    
+    gap: 10px;
+}
+
+
+#figura_fechamento{
+
+width: 45%;
+
+display: flex;
+justify-content: center;
+
+}
+#img_fechamento{
+
+width: 125%;
+
+
+}
+#artigo_fechamento{
+
+width: 45%;
+padding: 10px
+
+ 
+
+}
+
+#artigo_unidade{
+
+width: 45%;
+padding: 10px;
+
+}
+
+#figura_unidade{
+
+width: 45%;  
+display: flex;
+justify-content: center;
+
+}
+
+#img_unidade{
+
+width: 125%;
 
 }
 
@@ -183,10 +303,7 @@ font-family: var(--font-size-titulos);
 }
 
 
-
-
-
-.conteudo{
+.conteudo_1{
 
 display: flex;
 flex-flow: column;
@@ -201,8 +318,33 @@ align-items: center center;
 #artigo_1{
 
 height: 100%;
-
 margin: 0px 0px 50px;
+}
+.conteudo_2{
+
+display: flex;
+flex-flow: column;
+
+width: 200vw;
+
+justify-content: center center;
+align-items: center center;
+
+}
+
+#artigo_continuidade{
+
+
+padding: 0px 20px 0px 10px;
+}
+
+#artigo_pregnancia{
+
+
+padding: 0px 20px 0px 10px;
+}
+
+
 
 }
 
@@ -220,4 +362,3 @@ margin: 0px 0px 50px;
 
 
 
-}
