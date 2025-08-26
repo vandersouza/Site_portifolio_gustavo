@@ -47,7 +47,7 @@ p{
 
     
     width: 100dvw;
-    padding: 10px;
+    
 
 }
 
@@ -59,23 +59,46 @@ p{
     height: 80px;
     background-color:var(--primeira-cor);
     padding: 10px 10px;
+    margin-bottom: 30px;
+
+  position: fixed; /* Fixa o menu */
+  top: 0; /* Posiciona no topo da janela */
+  width: 100%; /* Ocupa toda a largura */
+   /* Cor de fundo para o menu */
+  z-index: 1000; /* Garante que o menu fique acima de outros elementos */
+    
+    
 }
 
+#cabecalho_mobile{
+
+    display: none;
+}
 
  #menu{
 
 display: flex;
-justify-content: center;
+align-items: center;
 height: 60px;
 padding: 10px;
-gap: 10px;
+gap: 5px;
+
+
+}
+
+a{
+    color: var(--segunda-cor);
+    text-decoration: none;
 }
 
 
 #itens_menu{
-width: 200px;
+
+/*background-color: aliceblue;*/
+
+width: 100%;
 color:var(--segunda-cor);
-font-size: 1.8rem;
+font-size: 1.5rem;
 padding: 0px 10px;
 text-align: center;  
 font-family: var(--font-size-titulos); 
@@ -87,7 +110,7 @@ cursor: pointer;
 
     color: var(--terceira-cor);
     border-bottom: 2px solid rgb(236, 129, 5);
-    padding: 10px 0px;
+    /*padding: 10px 0px;*/
     cursor: pointer;
     
 }
@@ -115,6 +138,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 50px;
+    margin-top: 20px;
     
     gap: 10px;
 }
@@ -207,9 +231,6 @@ width: 125%;
 
 }
 
-
-
-
 .conteudo_3{
 
     
@@ -224,8 +245,6 @@ width: 125%;
     
     gap: 10px;
 }
-
-
 #figura_fechamento{
 
 width: 45%;
@@ -270,37 +289,134 @@ width: 125%;
 
 }
 
-@media(max-width: 600px)   {
+
+.conteudo_4{
+
+    
+    /*background-color: var(--segunda-cor);*/
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+
+    margin: 20px;
+    
+    gap: 10px;
+}
+
+#figura_unificacao{
+
+width: 45%;
+
+display: flex;
+justify-content: center;
+
+}
+#img_unificacao{
+
+width: 100%;
+
+
+}
+#artigo_unificacao{
+
+width: 45%;
+padding: 10px
+
+ 
+
+}
+
+#artigo_segregacao{
+
+width: 45%;
+padding: 10px;
+
+}
+
+#figura_segregacao{
+
+width: 45%;  
+display: flex;
+justify-content: center;
+
+}
+
+#img_segregacao{
+
+width: 100%;
+
+}
+
+
+
+
+
+@media(max-width: 800px)   {
 
 
 #menu{
-
-display: flex;
-flex-flow: column;
-background-color: #FF8C32;
-height: 115px;
-border-radius: 20px;
+    display: none;
 }
 
 #itens_menu{
-width: 150px;
-color:var(--primeira-cor);
-font-size: 1.3rem;
-padding: 0px 10px;
-text-align: center;  
-font-family: var(--font-size-titulos); 
+
+    display: none;
+}
+
+#cabecalho{
+
+    justify-content: center;
+    display: none;
+}
+
+#cabecalho_mobile{
+
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    background-color: var(--primeira-cor);
+    height: 70px;
+    gap: 10px;
+    
+
+    position: fixed; /* Fixa o menu */
+    top: 0; /* Posiciona no topo da janela */
+    width: 100%; /* Ocupa toda a largura */
+   /* Cor de fundo para o menu */
+    z-index: 1000; /* Garante que o menu fique acima de outros elementos */
     
 }
 
-#itens_menu:hover{
+#logo_mobile{
+
+    display: flex;
+    align-items: center;
+}
+
+#itens_menu_mobile{
+
+    background-color: aqua;
+}
+
+#itens_menu_mobile{
+
+    font-size: var(--font-size-menu);
+    background-color: #06113c;
+
+}
+
+
+#itens_menu_mobile:hover{
+
 
     color: var(--terceira-cor);
-    border-bottom: 2px solid rgb(236, 129, 5);
-    background-color: #06113c;
-    border-radius: 20px;
-    
-
 }
+
+
+
+
 
 
 .conteudo_1{
@@ -344,18 +460,37 @@ padding: 0px 20px 0px 10px;
 padding: 0px 20px 0px 10px;
 }
 
+.conteudo_3{
+
+display: grid;
+    
+    grid-template-columns: 800px;
+    grid-template-rows: 300px 600px 600px 200px ;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+
+.conteudo_4{
+
+display: grid;
+    
+    grid-template-columns: 800px;
+    grid-template-rows: 300px 700px 600px 200px ;
+    justify-content: center;
+    justify-items: center;
 
 
 }
 
 
 
-    /*display: grid;
+}
+
+
+
     
-    grid-template-columns: 600px;
-    grid-template-rows: 300px 400px 400px 200px ;
-    justify-content: center;
-    justify-items: center;*/
 
     
 
