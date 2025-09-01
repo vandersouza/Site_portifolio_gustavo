@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=TASA+Orbiter:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+  --titulo-font-family: "Lexend", sans-serif;
+  --subtitulo-font-family:"Goldman", sans-serif;
+  --fundo-de-tela: #0066CC; 
+  --fundo-de-folha: white; 
+}
+
+.conteiner_conteudo_geral{
+
+    background-color:var(--fundo-de-tela);
+ 
+    width: 100dvw;
+    /*height: 500px;*/
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo_geral{
+
+    width: 80%;
+    background-color:var(--fundo-de-folha);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#banner{
+
+   width: 100%; 
+      
+}
+
+img{
+
+    width: 100%;
+    margin-bottom: 50px;
+  
+}
+
+h1{
+
+    text-transform: uppercase;  
+    font-family: var(--titulo-font-family);
+}
+
+p{
+
+    font-size: 1.3rem;
+    font-family: var(--subtitulo-font-family);
+    text-align: justify;
+    padding: 5cqw;
+    font-weight: 400;
+
+    line-height: 1.5; 
+    
+}
+
+span{
+
+    font-size: 1rem;
+    background-color: #0066CC;
+    color: white;
+    font-weight: 500;
+    
+}
+
+/*daqui para baixo configurações para o capitulo 3 sodre img*/
+
+#ico{
+
+    
+    width: 150px;
+    height: 150px;
+}
+
+#teste{
+
+    
+     width: 65vw; 
+     
+}
+
+#necessidades{
+
+   display: flex;  
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
+   width: 80%;
+   
+   background-color: white;
+       
+        
+}
+
+table{
+
+  border: 2px solid#c9e5f5;
+  width: 80%;
+  background-color:#daedf8;
+  border-collapse: collapse;
+}
+
+thead{
+
+  background-color: #5cb9f3;
+  font-family: var(--subtitulo-font-family);
+  font-size: 1.4rem;
+  color:#e1f0f9 ;
+  
+  
+
+}
+
+
+
+tr,th, td {
+
+  border: 1px solid #c9e5f5;
+  text-align: center;
+  background-color: #5cb9f3 #e1f0f9 #c9e5f5 #daedf8 #e6f3fb;
+  border: 1px solid #ccc;
+  
+}
+
+td{
+
+  font-family: "roboto";
+  font-size: 1rem;
+
+} 
+
+#perf{
+
+  font-weight: 600;
+  text-transform: uppercase;
+
+
+  
+}
+
+#hiper{
+
+  text-align: start;
+}
+
+#art{
+
+  width: 30px;
+  
+}
+
+#per{
+
+  width: 300px;
+ 
+}
+
+
+
+

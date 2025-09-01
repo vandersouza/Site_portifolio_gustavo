@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=TASA+Orbiter:wght@400..800&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+:root{
+
+ 
+    --font-titulos:"Arial, Helvetica, sans-serif";
+    --fonte-tamanho-titulos:1.6rem;
+    --fonte-negrito:weight 700;
+
+  --titulo-font-family: "Lexend", sans-serif;
+  --subtitulo-font-family:"Goldman", sans-serif;
+  --subtitulo-font-size: 20px;
+  --subtitulo-font-weight: normal;
+
+  --roda-pe-font-family: "Roboto, Tahoma, sans-serif";
+  --roda-pe-font-size: 14px;
+  --roda-pe-color: #000000;
+
+  --fundo-de-tela: #0066CC; 
+  --fundo-de-tela:rgba(0, 102, 204, 1); 
+
+}
+
+.container{
+
+    /*background-color:#0066CC ;*/
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100dvw;
+}
+
+#img_capa{
+
+  width: 100%;
+  height: 100%;
+}
+
+.conteudo_capa{
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+
+ a{
+  text-decoration: none;
+ }
+
+ a:visited {
+      color: inherit; /* Define a cor do link visitado para a cor do seu "pai", por exemplo, cor do texto */
+      text-decoration: none; /* Remove o sublinhado */
+    }
+
+/*Finalização da capa do projeto*/
+
+/*Inicio da paginas de Cards e navegação*/
+
+.container_conteudo{
+
+    /*background-color:#0066CC ;*/
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+
+    width: 100dvw;
+   
+}
+.conteudo_navegacao{
+
+  /*background-color: #0066CC;*/
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  align-items: center;
+  gap: 10px;
+  padding: 10PX;
+
+  width: 100vw;
+  
+
+}
+#cards{
+  
+  background-color:rgba(0, 180, 219, 1);
+  width: 460px;
+
+  border-radius: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  font-family:var(--subtitulo-font-family);
+  font-weight: 400;
+  font-style: normal;
+}
+
+#cards h3{
+ font-family: var(--titulo-font-family);
+ font-optical-sizing: auto;
+ font-weight: weight;
+ font-style: normal;
+
+}
+
+img{
+
+  width: 350px;
+  height: 350px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+#btn_card{
+
+  width: 200px;
+  height: 50px;
+  background-color: #0066CC;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.6rem;
+  font-family: var(--subtitulo-font-family);
+  cursor: pointer;
+  
+}
+
+#btn_card:hover{
+
+ background: linear-gradient(
+
+    to top, rgba(10,8, 135, 1), rgba(77, 100, 255, 255)
+
+)}
